@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Menu</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #d3d3d3;
+            margin: 0;
+            font-family: 'Oswald';
+        }
+
+        .cabecalho {
+            position: absolute;
+            background-color: #1C1C1C;
+            width: 100%;
+            display: inline-block;
+            margin: 0;
+            padding: 15px 0px 0px 15px;
+        }
+        
+        ul {
+            height: 100%;
+        }
+
+        li {
+            display: inline-block;
+            height: 100%;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        li:hover {
+            background: #00BFFF;
+        }
+
+        img {
+            width: 200px;
+            margin-bottom: 15px;
+        }
+
+        .logo {
+            float: left;
+        }
+
+        .menu {
+            float: left;
+        }
+
+        .autenticacao {
+            float: right;
+            padding: 15px 30px 0px 15px;
+        }
+
+        .menu-toggle {
+            display: none;
+            height: 30px;
+            width: 40px;
+        }
+
+        .botao {
+            background-color: red;
+            padding: 10px 14px 10px 15px;
+            border-radius: 25px;
+        }
+
+        @media (max-width : 1000px) {
+            .autenticacao { display: none; }
+        }
+
+        @media (max-width : 800px) {
+            .menu {
+                display: none;
+            }
+
+            .menu-toggle {
+                display: block;
+                float: right;
+                margin: 15px 30px 0px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="#inicio">
+                <img src="http://files.cod3r.com.br/curso-web/logo.png" alt="Logo" />
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+                <li>
+                    <a href="#cursos">Cursos</a>
+                </li>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="autenticacao">
+            <a href="#login">Login</a>
+            <a href="#registar" class="botao destaque">Registrar</a>
+        </aside>
+    </header>
+    <script>
+        // ...
+    </script>
+</body>
+</html>

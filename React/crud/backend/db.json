@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Vitor Barbosa Viana",
+      "email": "joaovitor@live.it"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia",
+      "email": "mj@empresa.com"
+    },
+    {
+      "name": "Joao Teste",
+      "email": "teste@empresa.com",
+      "id": 3
+    },
+    {
+      "name": "Teste 2",
+      "email": "joaoviana@ufmt.br",
+      "id": 4
+    }
+  ]
+}
